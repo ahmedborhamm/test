@@ -31,7 +31,7 @@
 }
 .active {
   border-bottom: 2px solid black !important;
-  box-shadow: 4.2px 4.2px 4.2px -1.8px black;
+  box-shadow: 4.2px 4.2px 4.2px -1.8px black !important;
 }
 
 .all-with-navbar .linear .text {

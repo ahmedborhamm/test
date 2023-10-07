@@ -227,7 +227,7 @@ input {
   background-color: whitesmoke;
   border: none;
   padding: 15px;
-  margin-top:20px;
+  margin-top:20px !important;
 }
 
 form textarea {

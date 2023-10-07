@@ -1,0 +1,243 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color:black;
+}
+
+
+.all-with-navbar {
+  background-image: url("./imgs/ajel_2022-03_0d118a58-eab7-4c88-bb9f-729b2c42332c_Untitled_1.avif ");
+  height: 800px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.all-with-navbar .linear {
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.455), rgba(0, 0, 0, 0.707));
+}
+.all-with-navbar .linear .navbar-brand {
+  color: white !important;
+  font-weight: bold;
+}
+.all-with-navbar a {
+  margin: 10px;
+  text-align: center;
+}
+.active {
+  border-bottom: 2px solid white;
+}
+
+.all-with-navbar .linear .text {
+  margin-top: 250px;
+  color: white;
+}
+.all-with-navbar .linear .text div i {
+  margin: 10px;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.252);
+  transition: all 0.3s ease-in-out;
+}
+
+.all-with-navbar .linear .text div i:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.all-with-navbar .linear .text p {
+    font-size: 35px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.progress {
+  margin-top: 45px;
+  height: 1.5rem !important;
+  border-radius: 10px;
+}
+
+.progress .progress-bar {
+  background-color: black;
+  font-weight: bold !important;
+  border-radius: 5px;
+}
+
+.tow-btn button {
+  margin-top: 20px;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.3s ease-in-out;
+}
+
+.tow-btn button:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+
+.services {
+  padding: 100px;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.services .container h1 {
+  font-weight: bold;
+}
+.services .container .row {
+  justify-content: space-evenly;
+}
+.services .container .row div {
+  margin-top: 70px;
+  transition: all 0.4s ease-in-out;
+
+  /* height: 300px; */
+  padding: 50px;
+  background-color: white;
+  box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.268);
+}
+
+.services .container .row div:hover i {
+  background-color: black;
+  color: white;
+}
+.services .container .row div i {
+  border-radius: 50%;
+  transition: all 0.4s ease-in-out;
+
+  font-size: 25px;
+  background-color: whitesmoke;
+  padding: 20px;
+  /* margin-top: 24%; */
+}
+
+.card {
+  position: relative;
+  transition: all 0.5s ease-in;
+}
+
+.card__image {
+  display: block;
+  width: 100%;
+}
+
+.card__overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  visibility: none;
+  transition: 0.5s ease;
+
+  background-color: white;
+}
+
+.card:hover .card__overlay {
+  opacity: 1;
+}
+
+.overlay__text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.portfolio .row {
+  justify-content: space-evenly;
+}
+
+.portfolio .row .col-lg-3 {
+  margin-top: 20px;
+}
+
+.TESTMONIAL img {
+  background-color: rgba(245, 245, 245, 0.514);
+  border-radius: 50%;
+  width: 5% !important;
+  margin-left: 50%;
+}
+
+.TESTMONIAL .carousel-indicators button {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  background-color: black;
+}
+
+.four-div {
+  margin-top: 200px;
+}
+.four-div .row div{
+  margin-top: 50px;
+}
+.four-div i {
+  font-size: 30px;
+}
+
+.four-div h1 {
+  margin-top: 10px;
+}
+
+.theree-div {
+  margin-top: 200px;
+  background-color: whitesmoke;
+
+}
+
+.contact-us {
+  padding: 30px;
+}
+.contact-us h1 {
+  font-weight: bold;
+}
+.contact-us i {
+  font-size: 40px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.contact-us i:hover {
+  background-color: black;
+
+  color: white;
+}
+
+input {
+  background-color: whitesmoke;
+  border: none;
+  padding: 15px;
+}
+
+form textarea {
+  background-color: whitesmoke;
+  border: none;
+  height: 180px;
+  width: 60%;
+}
+
+form button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 10px;
+}
